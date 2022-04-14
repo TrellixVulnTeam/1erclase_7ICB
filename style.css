@@ -6,6 +6,16 @@
     box-sizing: border-box;
 }
 
+
+/* css bootstrap */
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+
+/* css bootstrap */
+
 body {
     display: flex;
     flex-direction: column;
@@ -45,6 +55,8 @@ h1 {
 #menu ul li a:hover {
     background-color: rgb(187, 187, 187);
     transition: ease 0.4s;
+    animation: navmenu 1s;
+    animation-fill-mode: forwards;
 }
 
 .title-blog {
@@ -89,16 +101,6 @@ h1 {
 
 .productos-1 img {
     padding-left: 9rem;
-}
-
-form {
-    width: 300px;
-    margin: 0 auto;
-    background-color: greenyellow;
-    padding: 20px;
-    color: #999;
-    border-radius: 10px;
-    font-size: 12px;
 }
 
 input,
@@ -250,11 +252,7 @@ h3 {
     display: flex;
 }
 
-
-/* comienzo de los grids */
-
-
-/* .grid-h1 {
+comienzo de los grids .grid-h1 {
     grid-area: header;
 }
 
@@ -287,18 +285,8 @@ h3 {
     grid-area: contenido;
 }
 
-@media (max-width:700px) {
-    header {
-        text-align: center;
+@keyframes navmenu {
+    100% {
+        border-radius: 50%;
     }
-    .wrapper {
-        grid-template-columns: 1fr 4fr;
-        grid-template-rows: repeat(3, 1fr);
-        grid-template-areas: "header header" "menu menu" "container container" "contenido contenido" "contenido contenido" "footer footer";
-        box-sizing: border-box;
-    }
-    h1 {
-        width: 699px;
-        text-align: center;
-    }
-} */
+}
