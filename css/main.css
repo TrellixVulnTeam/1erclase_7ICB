@@ -193,9 +193,20 @@ h3 {
   grid-area: footer;
   width: 100%; }
 
+footer {
+  background-color: bisque;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around; }
+
 .main-content {
   grid-area: contenido; }
 
 @keyframes navmenu {
   100% {
     border-radius: 50%; } }
+
+.instagram img,
+.facebook img,
+.youtube img {
+  width: 25px; }
