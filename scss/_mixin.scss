@@ -1,0 +1,9 @@
+@mixin services-h2 ($padding, $color-bg, $ta-c) {
+    padding: $padding;
+    background-color: $color-bg;
+    text-align: $ta-c;
+}
+
+.servicios-h2 {
+    @include services-h2 (0.5rem, bisque, center);
+}

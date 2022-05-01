@@ -5,6 +5,11 @@
   margin: 0;
   box-sizing: border-box; }
 
+.servicios-h2, .servicios-h2-2, .servicios-h2-3, .servicios-h2-4 {
+  padding: 0.5rem;
+  background-color: bisque;
+  text-align: center; }
+
 .carousel-inner {
   max-height: 39rem; }
 
@@ -111,11 +116,6 @@ textarea {
   text-align: center;
   font-size: 30px;
   color: blue; }
-
-.servicios-h2, .servicios-h2-2, .servicios-h2-3, .servicios-h2-4 {
-  padding: 0.5rem;
-  background-color: bisque;
-  text-align: center; }
 
 .servicios-h2-2 {
   background-color: cornsilk; }
